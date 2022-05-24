@@ -1,4 +1,4 @@
-const sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("your name of the list");
+const sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("feed");
 
 function fetchPosts()
 {
