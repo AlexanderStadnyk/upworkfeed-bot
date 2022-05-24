@@ -62,7 +62,7 @@ function isNewPost(id)
 function sendNewPostToTelegram(title, link)
 {
   const chatId = "your chat id";
-  const botToken = "5096655692:AAHd-IER-Hvl184c4XzlHTgQrz5GjBAFCPs";
+  const botToken = "your telegrambot token";
   const telegramApi = 'https://api.telegram.org/bot'+botToken+'/sendMessage';
   
   var message = title + '\n' + link;
